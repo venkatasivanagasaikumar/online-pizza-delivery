@@ -1,0 +1,89 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background:url(./pizza3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial';
+}
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: #645c5377;
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: #e8660aa0;
+    padding: 20px;
+    font-family: serif;
+}
+label{
+    color: #ed6a0cc1;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-left: -20px;
+    background: red;
+    color: white;
+    margin-left: 5px;
+    margin-top: 20px;
+
+
+}
+span{
+    color: rgb(231, 227, 227);
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+#BOXES{
+    display: flex;
+}
+a:hover{
+    text-decoration: underline;
+}
+#FP{
+    padding-left: 240px;
+}
+#log:hover{
+    background: rgba(255, 0, 0, 0.629);
+}
+#Uname:hover{
+    border:2px solid red;
+}
+#Pass:hover{
+    border:2px solid red;
+}
+#SS{
+    font-size: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.585);
+}
